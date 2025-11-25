@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(47, 46, 46, 0.942);
+}
+
+
+
+header {
+    /* background-image: url(top-image.jpg);
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    height: 20vh;
+    padding-top: 18px;
+}
+
+
+header div {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+}
+
+header div h1 {
+    font-size: 18px;
+}
+
+header div ul {
+    display: flex;
+    width: 40%;
+}
+
+header div ul li {
+    width: 100%;
+    text-align: center;
+}
+
+header div ul li:hover {
+    background-color: rgb(189, 117, 129);
+    color: white;
+    border-radius: 20px;
+}
+
+header input {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid rgb(189, 117, 129);
+}
+
+header>h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+}
+
+
+/* main */
+
+.jiko{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jiko div{
+    height: 20vh;
+}
+
+#home{
+    margin: 30px 0;
+}
+
+.sukiru {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8px;
+}
+
+#suki {
+    width: 100%;
+    margin: 0 20px;
+}
+
+#suki img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#suki h2 {
+    text-align: center;
+    padding: 18px 8px;
+    background-color: rgb(219, 158, 168);
+    border-radius: 20px;
+    font-size: 14px;
+    width: 60%;
+    margin: 18px auto;
+}
+
+#suki a{
+  margin: 0 130px;
+  color:  red;
+}
+
+#suki p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+
+#form h2{
+    padding: 25px 8px;
+}
+
+#form input,
+textarea {
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#form label {
+    display: block;
+    margin: 30px 0;
+}
+
+@media (max-width:390px) {
+    header {
+        flex-direction: column;
+    }
+}
+
