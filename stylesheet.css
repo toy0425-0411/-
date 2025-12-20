@@ -10,12 +10,9 @@
 
 
 header {
-    /* background-image: url(top-image.jpg);
-    background-size: cover;
-    background-position: center; */
     width: 100%;
-    height: 20vh;
-    padding-top: 18px;
+    height: 10vh;
+    padding-top: 20px;
 }
 
 
@@ -73,7 +70,7 @@ header>h1 {
 }
 
 .jiko div{
-    height: 20vh;
+    margin: 50px 0;
 }
 
 #home{
@@ -119,6 +116,11 @@ header>h1 {
     text-align: center;
 }
 
+#teikyou{
+    margin: 50px 0;
+    text-align: center;
+}
+
 #form{
     text-align: center;
 }
@@ -138,6 +140,12 @@ textarea {
     display: block;
     margin: 30px 0;
 }
+
+#form button{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
 
 @media (max-width:390px) {
     header {
